@@ -1,28 +1,40 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
-header {
-    width: 100%;
-    height: 110px;
-    display: block;
+
+@media (max-width: 1365px) {}
+  
+
+  header {
+    height: auto; /* Ajusta a altura automaticamente para o conteúdo */
+    flex-direction: column; /* Coloca os elementos em coluna */
+    text-align: center; /* Centraliza o texto */
     float: left;
     background-color: #D1C3BB;
-    font-size: 50px;
-    color: #8A623D;
-    padding-top: 40px;
-}
+    padding: 20px; /* Adicione um espaçamento interno para melhorar a aparência */
+    margin: 0; /* Remova quaisquer margens externas */
+    box-sizing: border-box; /* Inclui preenchimento e bordas na largura e altura */
+  }
+  
+
+
 
 .logo {
-  width: 130px;
-  height: 130px;
-  float: left;
-  margin-left: 30px;
+  margin-right: 10px; /* Remove a margem à direita */
+  margin-bottom: 10px; /* Adicione margem inferior para separar do título */
+  width: 20%;
+  height: 80px;
   border-radius: 50%;
-  border: 2px solid black;
-  margin-top: -35px;
 }
 
+
 .title {
-  margin-left: 250px;
-  margin-top: 20px;
+  margin-left: auto; /* Empurra o título para a direita */
+  color: #8A623D;
+      font-size: 50px;
 }
 
 main {
@@ -89,11 +101,12 @@ body {
 .details h1 {
   color: #8A623D;
   margin-bottom: 0;
-  margin-left: 20px;
+  margin-left: 30px;
 }
 
 .details li {
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-left: 30px;
 }
 
 .details {
@@ -118,9 +131,10 @@ body {
 
 .me h1 {
   color: #8A623D;
-  margin-left: 20px;
+  margin-left: 30px;
 }
 
 .me li {
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-left: 30px;
 }
